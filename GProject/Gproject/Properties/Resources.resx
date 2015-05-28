@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="canceled" xml:space="preserve">
+    <value>Atšaukta</value>
+    <comment>state canceled</comment>
+  </data>
+  <data name="updatePet" xml:space="preserve">
+    <value>Koreguoti augintinį</value>
+    <comment>update pet topic</comment>
+  </data>
+  <data name="appointmentsForSelectedClient" xml:space="preserve">
+    <value>Susitikimai pasirinktam klientui</value>
+    <comment>appointments for selected client</comment>
+  </data>
+  <data name="pets" xml:space="preserve">
+    <value>Augintiniai</value>
+    <comment>tabPage pets</comment>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Tel. numeris</value>
+    <comment>client phone number1</comment>
+  </data>
+  <data name="petName" xml:space="preserve">
+    <value>Gyvūno vardas</value>
+    <comment>name of pet</comment>
+  </data>
+  <data name="waiting" xml:space="preserve">
+    <value>Laukiama</value>
+    <comment>state waiting</comment>
+  </data>
+  <data name="surName" xml:space="preserve">
+    <value>Pavardė</value>
+    <comment>client surname</comment>
+  </data>
+  <data name="petBirthDate" xml:space="preserve">
+    <value>Gyvūno gimimo data</value>
+    <comment>date of pet birth</comment>
+  </data>
+  <data name="createClientResultCaption" xml:space="preserve">
+    <value>Klientas nerastas</value>
+    <comment>create client dialogresult caption</comment>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Data</value>
+    <comment>simple date</comment>
+  </data>
+  <data name="createAppointment" xml:space="preserve">
+    <value>Pridėti naują susitikimą</value>
+    <comment>create new appointment</comment>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Sukurti</value>
+    <comment>create button txt</comment>
+  </data>
+  <data name="createPet" xml:space="preserve">
+    <value>Pridėti naują augintinį</value>
+    <comment>create new pet</comment>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Nutraukti</value>
+    <comment>cancel action</comment>
+  </data>
+  <data name="createStaff" xml:space="preserve">
+    <value>Pridėti naują darbuotoją</value>
+    <comment>create new staff member</comment>
+  </data>
+  <data name="doctor" xml:space="preserve">
+    <value>Gydytojas</value>
+    <comment>doctor appointment </comment>
+  </data>
+  <data name="updateStaff" xml:space="preserve">
+    <value>Koreguoti darbuotoją</value>
+    <comment>update staff topic</comment>
+  </data>
+  <data name="arrived" xml:space="preserve">
+    <value>Atvyko</value>
+    <comment>state arrived</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="edit50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctorName" xml:space="preserve">
+    <value>Gyd. vardas</value>
+    <comment>doctor name</comment>
+  </data>
+  <data name="notArrived" xml:space="preserve">
+    <value>Neatvyko</value>
+    <comment>state didnt arrive</comment>
+  </data>
+  <data name="previewPet" xml:space="preserve">
+    <value>Peržiūrėti augintinį</value>
+    <comment>preview pet form title</comment>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>Komentaras</value>
+    <comment>komentaras</comment>
+  </data>
+  <data name="updateAppointment" xml:space="preserve">
+    <value>Koreguoti susitikimą</value>
+    <comment>update appointment topic</comment>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>E. paštas</value>
+    <comment>client email</comment>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Pridėti</value>
+    <comment>btn add text</comment>
+  </data>
+  <data name="appointmentsForSelectedPet" xml:space="preserve">
+    <value>Susitikimai pasirinktam augintiniui</value>
+    <comment>appointments for selected pet</comment>
+  </data>
+  <data name="previewClient" xml:space="preserve">
+    <value>Peržiūrėti klientą</value>
+    <comment>preview client form title</comment>
+  </data>
+  <data name="time" xml:space="preserve">
+    <value>Laikas</value>
+    <comment>appointment time</comment>
+  </data>
+  <data name="staff" xml:space="preserve">
+    <value>Darbuotojai</value>
+    <comment>list of staff members</comment>
+  </data>
+  <data name="appointments" xml:space="preserve">
+    <value>Susitikimai</value>
+    <comment>tabPage appointments</comment>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Statusas</value>
+    <comment>status</comment>
+  </data>
+  <data name="deleteEntryForReal" xml:space="preserve">
+    <value>Ar tikrai ištrinti pasirinktą įrašą?</value>
+    <comment>delete button message box txt</comment>
+  </data>
+  <data name="deleteEntryCaption" xml:space="preserve">
+    <value>Trinimas</value>
+    <comment>deletion</comment>
+  </data>
+  <data name="qualification" xml:space="preserve">
+    <value>Kvalifikacija</value>
+    <comment>qualification</comment>
+  </data>
+  <data name="ownerSurname" xml:space="preserve">
+    <value>Savininko pavardė</value>
+    <comment>surname of pet owner</comment>
+  </data>
+  <data name="genderMale" xml:space="preserve">
+    <value>Patinas</value>
+    <comment>gender selection male</comment>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Pašalinti</value>
+    <comment>btn delete text</comment>
+  </data>
+  <data name="petGender" xml:space="preserve">
+    <value>Gyvūno lytis</value>
+    <comment>gender of pet</comment>
+  </data>
+  <data name="petSpecies" xml:space="preserve">
+    <value>Gyvūno rūšis</value>
+    <comment>specy of a pet</comment>
+  </data>
+  <data name="todayEntries" xml:space="preserve">
+    <value>Rodyti tik šios dienos įrašus</value>
+    <comment>show only todays entries</comment>
+  </data>
+  <data name="updateClient" xml:space="preserve">
+    <value>Koreguoti klientą</value>
+    <comment>update client topic</comment>
+  </data>
+  <data name="doctorSurname" xml:space="preserve">
+    <value>Gyd. pavardė</value>
+    <comment>doctor surname</comment>
+  </data>
+  <data name="clients" xml:space="preserve">
+    <value>Klientai</value>
+    <comment>client tab name</comment>
+  </data>
+  <data name="createClientResultForReal" xml:space="preserve">
+    <value>Toks klientas nerastas. Ar norite sukurti naują klientą? </value>
+    <comment>create new client dialog box</comment>
+  </data>
+  <data name="createClient" xml:space="preserve">
+    <value>Pridėti naują klientą</value>
+    <comment>create new client</comment>
+  </data>
+  <data name="ownerAddress" xml:space="preserve">
+    <value>Savininko adresas</value>
+    <comment>address of pet owner</comment>
+  </data>
+  <data name="regDate" xml:space="preserve">
+    <value>Registravimo data</value>
+    <comment>registration date</comment>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Vardas</value>
+    <comment>client name</comment>
+  </data>
+  <data name="ownerName" xml:space="preserve">
+    <value>Savininko vardas</value>
+    <comment>name of pet owner</comment>
+  </data>
+  <data name="genderFemale" xml:space="preserve">
+    <value>Patelė</value>
+    <comment>gender selection female</comment>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Adresas</value>
+    <comment>client address</comment>
+  </data>
+  <data name="view50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editBtn" xml:space="preserve">
+    <value>Koreguoti</value>
+    <comment>edit button txt</comment>
+  </data>
+  <data name="viewBtn" xml:space="preserve">
+    <value>Peržiūrėti</value>
+    <comment>view button txt</comment>
+  </data>
+  <data name="erorMsgGetAutoCmpltStaffData" xml:space="preserve">
+    <value>Darbuotojo duomenų automatinio užpildymo metu įvyko klaida</value>
+    <comment>error msg for staff autocomplete</comment>
+  </data>
+  <data name="errorMsgDeleteFailed" xml:space="preserve">
+    <value>Pašalinimo metu įvyko klaida</value>
+    <comment>error msg for deleting entry</comment>
+  </data>
+  <data name="errorMsgFilteringFailed" xml:space="preserve">
+    <value>Filtravimo metu įvyko klaida</value>
+    <comment>error msg for filtering</comment>
+  </data>
+  <data name="errorMsgGetAutoCmpltClientData" xml:space="preserve">
+    <value>Kliento duomenų automatinio užpildymo metu įvyko klaida</value>
+    <comment>error msg for client autocomplete</comment>
+  </data>
+  <data name="errorMsgGettingClientID" xml:space="preserve">
+    <value>Klientų duomenų gavimo metu įvyko klaida</value>
+    <comment>error msg for clientID get</comment>
+  </data>
+  <data name="errorMsgGettingStaffID" xml:space="preserve">
+    <value>Darbuotojų duomenų gavimo metu įvyko klaida</value>
+    <comment>error msg for staffID getting</comment>
+  </data>
+  <data name="errorMsgInsertFailed" xml:space="preserve">
+    <value>Pridėjimo metu įvyko klaida</value>
+    <comment>error msg for inserting entry</comment>
+  </data>
+  <data name="errorMsgUpdateFailed" xml:space="preserve">
+    <value>Atnaujinimo metu įvyko klaida</value>
+    <comment>error msg for updating entry</comment>
+  </data>
+  <data name="appointmentJoinDGV" xml:space="preserve">
+    <value>AppJoinDGV</value>
+    <comment>appendix for appointntment join DGV</comment>
+  </data>
+  <data name="checkIfDataFieldContainsDate" xml:space="preserve">
+    <value>Date</value>
+    <comment>check</comment>
+  </data>
+  <data name="clientDGV" xml:space="preserve">
+    <value>ClientDGV</value>
+    <comment>appendix for client DGV</comment>
+  </data>
+  <data name="dataBaseFieldAppointmentDate" xml:space="preserve">
+    <value>AppointmentDate</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientAddress" xml:space="preserve">
+    <value>ClientAddress</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientEmail" xml:space="preserve">
+    <value>ClientEmail</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientID" xml:space="preserve">
+    <value>ClientID</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientName" xml:space="preserve">
+    <value>ClientName</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientPhone1" xml:space="preserve">
+    <value>ClientPhone1</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientPhone2" xml:space="preserve">
+    <value>ClientPhone2</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientRegDate" xml:space="preserve">
+    <value>ClientRegDate</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldClientSurname" xml:space="preserve">
+    <value>ClientSurname</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldComments" xml:space="preserve">
+    <value>Comments</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldID" xml:space="preserve">
+    <value>ID</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldPetBirthDate" xml:space="preserve">
+    <value>PetBirthDate</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldPetGender" xml:space="preserve">
+    <value>PetGender</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldPetName" xml:space="preserve">
+    <value>PetName</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldPetSpecies" xml:space="preserve">
+    <value>PetSpecies</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStaffAddress" xml:space="preserve">
+    <value>StaffAddress</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStaffEmail" xml:space="preserve">
+    <value>StaffEmail</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStaffName" xml:space="preserve">
+    <value>StaffName</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStaffPhone1" xml:space="preserve">
+    <value>StaffPhone1</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStaffPhone2" xml:space="preserve">
+    <value>StaffPhone2</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStaffQualification" xml:space="preserve">
+    <value>StaffQualification</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStaffSurname" xml:space="preserve">
+    <value>StaffSurname</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="dataBaseFieldStatus" xml:space="preserve">
+    <value>Status</value>
+    <comment>DB field</comment>
+  </data>
+  <data name="errorMsgGetAutoCmpltPetData" xml:space="preserve">
+    <value>Gyvūno duomenų automatinio užpildymo metu įvyko klaida</value>
+    <comment>error msg for pet auto complete</comment>
+  </data>
+  <data name="filterTxtBox" xml:space="preserve">
+    <value>filterTxtBox</value>
+    <comment>appendix for filter textBox</comment>
+  </data>
+  <data name="petDGV" xml:space="preserve">
+    <value>PetDGV</value>
+    <comment>appendix for pet DGV</comment>
+  </data>
+  <data name="staffDGV" xml:space="preserve">
+    <value>StaffDGV</value>
+    <comment>appendix for staff DGV</comment>
+  </data>
+  <data name="appName" xml:space="preserve">
+    <value>MiniVet registracija</value>
+    <comment>appName</comment>
+  </data>
+  <data name="errorMsgAppointmentData" xml:space="preserve">
+    <value>Susitikimo duomenų gavimo metu įvyko klaida</value>
+    <comment>appointment data error</comment>
+  </data>
+  <data name="errorMsgPetData" xml:space="preserve">
+    <value>Gyvūno duomenų gavimo metu įvyko klaida</value>
+    <comment>pet data error</comment>
+  </data>
+</root>

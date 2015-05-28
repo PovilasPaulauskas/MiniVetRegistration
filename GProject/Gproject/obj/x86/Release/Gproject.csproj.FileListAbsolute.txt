@@ -1,0 +1,10 @@
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\obj\x86\Release\Gproject.formMain.resources
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\obj\x86\Release\Gproject.Properties.Resources.resources
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\obj\x86\Release\Gproject.csproj.GenerateResource.Cache
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\bin\Release\clinicDB.accdb
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\bin\Release\Gproject.exe.config
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\bin\Release\Gproject.exe
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\bin\Release\Gproject.pdb
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\obj\x86\Release\Gproject.exe
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\obj\x86\Release\Gproject.pdb
+C:\Users\PPaulauskas\Desktop\GProject\Gproject\Gproject\obj\x86\Release\Gproject.createClientForm.resources
